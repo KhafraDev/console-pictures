@@ -1,5 +1,5 @@
 const { PNG } = require('pngjs');
-const { createReadStream } = require("fs");
+const { createReadStream } = require('fs');
 const chalk = require('chalk');
 
 /**

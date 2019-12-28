@@ -1,34 +1,30 @@
 {
   "name": "console-pictures",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pictures in the console!",
   "main": "index.js",
   "directories": {
     "test": "test"
-  },
-  "dependencies": {
-    "chalk": "^3.0.0",
-    "pngjs": "^3.4.0"
-  },
-  "devDependencies": {
-    "mocha": "^6.2.2"
   },
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/khafradev/console-pictures.git"
+    "url": "git+https://github.com/KhafraDev/console-pictures.git"
   },
   "keywords": [
     "console",
-    "pictures",
-    "ascii"
+    "pictures"
   ],
   "author": "Khafra",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/khafradev/console-pictures/issues"
+    "url": "https://github.com/KhafraDev/console-pictures/issues"
   },
-  "homepage": "https://github.com/khafradev/console-pictures#readme"
+  "homepage": "https://github.com/KhafraDev/console-pictures#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "pngjs": "^3.4.0"
+  }
 }

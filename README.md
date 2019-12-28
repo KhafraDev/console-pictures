@@ -1,9 +1,16 @@
 # console-pictures
 Pictures in the console!
 
-# WIP
-* Resize images to fit inside console.
-* Convert non-PNG to png.
+# Resizing Images?
+* Use an alternative package like ``Jimp``, ``sharp``, ``node-canvas`` or some other image manipulation package.
 
-# Not WIP
-* Support for other types of images.
+# Support for other types?
+* Use an alternative package to convert to PNG, or use a different module.
+
+# Changes
+## v1.0.0
+* Initial Release
+
+## v1.0.1
+* Fix tests for large images
+* Clear bloat.
